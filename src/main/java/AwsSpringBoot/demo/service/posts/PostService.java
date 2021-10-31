@@ -6,7 +6,6 @@ import AwsSpringBoot.demo.web.dto.PostListResponseDto;
 import AwsSpringBoot.demo.web.dto.PostResponseDto;
 import AwsSpringBoot.demo.web.dto.PostSaveRequestDto;
 import AwsSpringBoot.demo.web.dto.PostUpdateRequestDto;
-import javafx.geometry.Pos;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
