@@ -17,9 +17,9 @@ script: "./gradlew clean build"
 
 
 before_deploy:
-  - zip -r hack-store *
+  - zip -r aws_spring_boot_jpa *
   - mkdir -p deploy
-  - mv hack-store.zip deploy/hack-store.zip
+  - mv hack-store.zip deploy/aws_spring_boot_jpa.zip
 
 deploy:
   - provider: s3
